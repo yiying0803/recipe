@@ -1,0 +1,8 @@
+#mainmenu {
+  height: 800px;
+  float: left;
+  width: 15%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(165,42,42,0.1);
+}
