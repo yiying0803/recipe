@@ -8,6 +8,18 @@
   z-index: 2;
   margin-top: 500px;
 }
+#asianfood {
+  width:80px;
+}
+
+#westernfood {
+  width:80px;
+}
+
+#dessert {
+  width:80px;
+}
+
 #background {
   position: fixed;
   z-index: -1;
