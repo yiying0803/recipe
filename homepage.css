@@ -1,1 +1,33 @@
-h{}
+#background {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  opacity: 0.5;
+  width: 100%;
+}
+
+#link {
+  height: 800px;
+  width: 90%;
+  border-style: hidden;
+  border-width: 3px;
+  border-color: rgb(165,42,42,0.1);
+  z-index: 2;
+  margin-top: 500px;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 80PX;
+  font-size: 20px;
+}
+
+#asianfood {
+  width:100px;
+}
+
+#westernfood {
+  width:100px;
+}
+
+#dessert {
+  width:100px;
+}
