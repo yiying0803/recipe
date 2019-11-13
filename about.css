@@ -6,14 +6,15 @@
   border-width: 3px;
   border-color: rgb(165,42,42,0.1);
   z-index: 2;
-  margin-top: 500px;
+  position: fixed;
 }
 
 #background {
   position: fixed;
   z-index: -1;
   opacity: 0.5;
-  width:100%;
+  width:85%;
+  margin-left: 235px;
 }
 #asianfood {
   width:80px;
