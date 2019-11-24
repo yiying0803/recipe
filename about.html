@@ -6,28 +6,58 @@
   <!--control the width according to different divices-->
   <meta name="viewport" content="width=device-width,
 initial-scale=1.0">
-  <!--backgroung image-->
-  <img src="https://i.imgur.com/FPP38yI.jpg" alt="spaghetti" id="background"/>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
   <!--mainmenu-->
-  <div class="navbar">
-    <a href="./homepage.html"><img src="https://i.imgur.com/fWWVK0K.jpg" alt="LOGO" id="logo"/></a>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <br>
-    <a href="./homepage.html">HOME</a>
+    <a href="./homepage.html"><img src="https://i.imgur.com/fWWVK0K.jpg" id="homepage" alt="LOGO" id="logo" width="100%"/></a>
     <br>
-    <a href="./about.html">ABOUT</a>
+    <a href="./homepage.html">Home</a>
     <br>
-    <a href="./contact-me.html">CONTACT</a>
+    <a href="./about.html">About</a>
     <br>
-    <a href="./asianfood.html"><img src="https://i.imgur.com/2W01y2N.png" id="asianfood"/></a>
-    <a href="./westernfood.html"><img src="https://i.imgur.com/mJfM88K.png" id="westernfood"/></a>
-    <a href="./dessert.html"><img src="https://i.imgur.com/HAyzbtI.png" id="dessert"/></a>
+    <a href="./contact-me.html">Contact</a>
+    <br>
+    <a href="./asianfood.html"><img src="https://i.imgur.com/2W01y2N.png" id="asianfood"/> Asianfood</a>
+    <a href="./westernfood.html"><img src="https://i.imgur.com/mJfM88K.png" id="westernfood"/> Westernfood</a>
+    <a href="./dessert.html"><img src="https://i.imgur.com/HAyzbtI.png" id="dessert"/> Dessert</a>
+  </div>
+  <!-- Use any element to open the sidenav -->
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <div id="main">
+    <div class="sidebar background">
+    <div class="container">
+      <div class="about">
+      <h1>About</h1>
+      <p>Hello!
+        Iron Rice Bowl is a chinese term used to refer to an occupation with guaranteed job security, as well as steady income and benefits.
+      Just as a stable job and steady income is important, so is making good food!
+    We would like to share with you our love for food and recipes that we have developed or adapted.</p>
+      </div>
+    </div>
+  </div>
+
   </div>
 </head>
 <body>
-<h1>About</h1>
-<p>Hello! Iron Rice Bowl is a chinese term used to refer to an occupation with guaranteed job security, as well as steady income and benefits.
-  Just as a stable job and steady income is important, so is making good food!
-We would like to share with you our love for food and recipes that we have developed or adapted.</p>
+
+<!-- JS to open and close sidebar with overlay effect -->
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 </body>
 
 </html>
