@@ -5,7 +5,14 @@
   <link href="./asianfood.css" type="text/css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,
 initial-scale=1.0">
-  
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+  </body>
+</head>
+
+
   <!--mainmenu-->
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -24,43 +31,38 @@ initial-scale=1.0">
   </div>
   <!-- Use any element to open the sidenav -->
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-<!-- article -->
-     <div class="recipe a">
-       <div class="article">
-         <div class="text image">
-
-         </div>
-         <div class="text content">
-
-         </div>
-       </div>
-     </div>
-     <div class="recipe b"></div>
-        <div class="article">
-          <div class="text image">
-
-          </div>
-          <div class="text content">
-
-          </div>
-        </adv>
-     </div>
-     <div class="recipe c">C</div>
-        <div class="text image">
-
-        </div>
-        <div class="text content">
-
-        </div>
+  <!-- article -->
+<br>  
+<div class="card mb-3" style="max-width: 45%;" id="rec">
+  <div class="row no-gutters">
+    <div class="col-md-6">
+      <img src="https://i.imgur.com/bJiBDxZ.jpg" class="card-img" alt="firednoodles">
     </div>
-     <div class="recipe d">D</div>
-        <div class="text image">
-
-        </div>
-        <div class="text content">
-
-        </div>
-   </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Fried Noodles</h5>
+        <p class="card-text">Stir-Fry is one of the most popular Chinese dishes. It is a quick and simple dish to make and has many delicious ingredients like chicken, noodles, bell peppers, broccoli and mushrooms.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 45%;" id="rec">
+  <div class="row no-gutters">
+    <div class="col-md-6">
+      <img src="https://i.imgur.com/0juYoGL.jpg" class="card-img" alt="greencurry">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Thai Green Curry</h5>
+        <p class="card-text">Thai Green Curry in 30 mins made by freshening up store bought curry paste. This recipe is flexible to be made with chicken or entirely meat free.
+The most common and popular version of green curry is chicken. This is the base version I’m sharing today. There are no set rules about what goes in a Thai Green Chicken Curry, the most common combination seems to be chicken, eggplant and snow peas.
+</p>
+        <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
    <!-- JS to open and close sidebar with overlay effect -->
    <script>
    function openNav() {

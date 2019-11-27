@@ -76,33 +76,7 @@
 #dessert {
   width:30%;
 }
-
-
-.table {
-  border: 1px black hidden;
-  width: 1250px;
-  height: 1000px;
-  display: grid;
-  grid-template-columns:50% 50%;
-  grid-auto-rows: 50% 50%;
-  margin-left: 257px;
-}
-
-.recipe {
-  background-color: #ddd;
-  color: black;
-  border-radius: 0px;
-  border: 1px blue solid;
-}
-
-.article {
-  border: 1px black solid;
-  width: 625px;
-  height: 500px;
-  display: grid;
-  grid-template-columns:50% 50%;
-}
-
-.text {
- border: 1px red solid;
+#rec {
+  margin-left: 50px;
+  display: inline-grid;
 }
