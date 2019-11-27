@@ -80,3 +80,7 @@
   margin-left: 50px;
   display: inline-grid;
 }
+
+.card-img{
+  width:300px;
+}

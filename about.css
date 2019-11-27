@@ -77,15 +77,11 @@
   width:30%;
 }
 
-#main {
 
-  width:80%;
-  height: 200px;
-  font-size: 20px;
-  margin: auto;
-}
 
-#background {
-  width: 100%;
-  opacity: 0.5; 
+iframe{
+  width: 75%;
+  padding-left:175px;
+  z-index: 2;
+  margin-left:175px;
 }
