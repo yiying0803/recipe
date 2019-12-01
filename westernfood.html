@@ -5,6 +5,12 @@
   <link href="./westrernfood.css" type="text/css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,
 initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+ </head>
+<body>
   <!--mainmenu-->
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -21,9 +27,42 @@ initial-scale=1.0">
     <a href="./westernfood.html"><img src="https://i.imgur.com/mJfM88K.png" id="westernfood"/> Westernfood</a>
     <a href="./dessert.html"><img src="https://i.imgur.com/HAyzbtI.png" id="dessert"/> Dessert</a>
   </div>
-</head>
   <!-- Use any element to open the sidenav -->
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <!-- article -->
+<br>
+<div class="card mb-3" style="max-width: 45%;" id="rec">
+  <div class="row no-gutters">
+    <div class="col-md-6">
+      <img src="https://i.imgur.com/e5TqVdM.jpg" class="card-img" alt="firednoodles" width="100" height="450">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Roast Chicken</h5>
+        <p class="card-text">Roast chicken is chicken prepared as food by roasting whether in a home kitchen, over a fire, or with a rotisserie (rotary spit). Generally, the chicken is roasted with its own fat and juices by circulating the meat during roasting, and therefore, are usually cooked exposed to fire or heat with some type of rotary grill so that the circulation of these fats and juices is as efficient as possible. Roast chicken is a dish that appears in a wide variety of cuisines worldwide.</p>
+        <p class="card-text"><small class="text-muted">Last updated 1 days ago</small></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 45%;" id="rec">
+  <div class="row no-gutters">
+    <div class="col-md-6">
+      <img src="https://i.imgur.com/pjLbVSA.jpg" class="card-img" alt="greencurry" width="100" height="450">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Sausage Pasta</h5>
+        <p class="card-text">Whether you like plain pork, chorizo or chipolatas, we've got you covered for the ultimate comfort food. Try our marvellously meaty sausage pasta dishes.
+</p>
+        <p class="card-text"><small class="text-muted">Last updated 2 weeks ago</small></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+</body>
 <!-- JS to open and close sidebar with overlay effect -->
 <script>
 function openNav() {

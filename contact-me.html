@@ -21,33 +21,31 @@ initial-scale=1.0">
     <a href="./westernfood.html"><img src="https://i.imgur.com/mJfM88K.png" id="westernfood"/> Westernfood</a>
     <a href="./dessert.html"><img src="https://i.imgur.com/HAyzbtI.png" id="dessert"/> Dessert</a>
   </div>
+  <style>
+  body {
+  background-image: url("https://i.imgur.com/886kXVo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  .button{
+    background-color:rgb(180, 180, 180);
+    border: none;
+    color: white;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  </style>
 </head>
   <!-- Use any element to open the sidenav -->
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
 <!--contact me-->
-<form>
-  <h1> Contact/ Ask Me </h1>
-  <!--name-->
-  <label for="name">Name:</label>
-  <br>
-  <input type="text" name="Name" id="name" required>
-  <br>
-  <br>
-  <!--email-->
-  <label id="Email">Email:</label>
-  <br>
-  <input type="text" name="Email" id="Email" required>
-  <br>
-  <br>
-  <!--message-->
-  <label for="What's going on">What's going on</label>
-  <br>
-  <textarea name="name" rows="8" cols="40">  </textarea>
-  <br>
-  <!--submit button-->
-  <input type="submit" value="send" required>
-</form>
+<br>
+<body>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc0AhvoDZfMDrb3yNf8xsRKSZSSGR6n8Df7Oq4lg5mUced0MQ/viewform?embedded=true" width="640" height="751" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 <!-- JS to open and close sidebar with overlay effect -->
 <script>
 function openNav() {
@@ -58,7 +56,4 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-
-
-
 </html>
