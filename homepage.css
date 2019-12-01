@@ -1,10 +1,11 @@
-#background {
-  position: fixed;
-  top: 0;
-  z-index: -1;
-  opacity: 0.5;
-  width: 100%;
+body {
+background-image: url("https://i.imgur.com/JKIhdYm.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
 }
+
 a {
   display: block;
   margin-left: auto;
@@ -23,6 +24,8 @@ a {
   margin-left: 600px;
   font-size: 20px;
   line-height: 0.5;
+  font-weight: bold;
+  font-style: oblique;
 }
 .navbar a {
   display: block;
@@ -32,7 +35,7 @@ a {
   text-decoration: none;
 }
 .navbar a:hover {
-  background-color: #ddd;
+  transform:scale(1.1,1.1);
   color: black;
 }
 .navbar a.active {
@@ -51,6 +54,17 @@ a {
   text-align: center;
   margin-left:auto;
   margin-right:auto;
+}
+.table a {
+  display: block;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.table a:hover {
+  transform:scale(1.1,1.1);
+  color: black;
 }
 
 .column {

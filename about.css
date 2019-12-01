@@ -6,7 +6,10 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #ddd; /*gray*/
+  background-image: url(https://i.imgur.com/YMsJErr.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -14,7 +17,7 @@
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 15px;
+  padding: 5px 15px;
   text-decoration: none;
   font-size: 20px;
   color: #818181;
@@ -24,16 +27,16 @@
 /* Image*/
 
 #asianfood {
-  width:30%;
+  width:20%;
 
 }
 
 #westernfood {
-  width:30%;
+  width:20%;
 }
 
 #dessert {
-  width:30%;
+  width:20%;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -77,10 +80,18 @@
   width:30%;
 }
 
+body {
+background-image: url("https://i.imgur.com/Du7gNzj.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
 .about {
-  margin-left: 500px;
-  margin-top: 200px;
+  margin-left: 700px;
+  margin-top: 160px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align:justify;
 }
 .header {
   font-size: 40px;
@@ -93,4 +104,5 @@
 .text{
   color: white;
   font-size: 25px;
+  width:400px;
 }

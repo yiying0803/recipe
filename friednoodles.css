@@ -14,7 +14,7 @@
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 15px;
+  padding: 5px 15px;
   text-decoration: none;
   font-size: 20px;
   color: #818181;
@@ -24,16 +24,16 @@
 /* Image*/
 
 #asianfood {
-  width:30%;
+  width:20%;
 
 }
 
 #westernfood {
-  width:30%;
+  width:20%;
 }
 
 #dessert {
-  width:30%;
+  width:20%;
 }
 
 /* When you mouse over the navigation links, change their color */

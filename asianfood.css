@@ -1,5 +1,7 @@
+
 /* The side navigation menu */
 .sidenav {
+  position: fixed;
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -14,26 +16,31 @@
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 15px;
+  padding: 5px 15px;
   text-decoration: none;
   font-size: 20px;
   color: #818181;
   display: block;
   transition: 0.3s;
 }
+
+#open{
+  position: fixed;
+  color: white;
+}
 /* Image*/
 
 #asianfood {
-  width:30%;
+  width:20%;
 
 }
 
 #westernfood {
-  width:30%;
+  width:20%;
 }
 
 #dessert {
-  width:30%;
+  width:20%;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -45,6 +52,7 @@
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
+  position: fixed;
   position: absolute;
   top: 0;
   right: 25px;
@@ -76,9 +84,24 @@
 #dessert {
   width:30%;
 }
+
+body {
+
+  background: url("https://i.imgur.com/Tfc9KhM.jpg");
+  background-color: #cccccc;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
 #rec {
+  margin-top: 200px;
   margin-left: 50px;
   display: inline-grid;
+  opacity: 0.8;
 }
 
 .card-img{

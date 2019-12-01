@@ -10,6 +10,8 @@ initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
   </head>
+
+
 <body>
 
 <!-- CSS Media Query resource: https://www.w3schools.com/css/css3_mediaqueries.asp -->
@@ -18,7 +20,7 @@ initial-scale=1.0">
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <br>
-    <a href="./homepage.html"><img src="https://i.imgur.com/fWWVK0K.jpg" id="homepage" alt="LOGO" id="logo" width="100%"/></a>
+    <a href="./homepage.html"><img src="https://i.imgur.com/fWWVK0K.jpg" id="homepage" alt="LOGO" id="logo" width="100%" opacity="1"/></a>
     <br>
     <a href="./homepage.html">Home</a>
     <br>
@@ -31,7 +33,7 @@ initial-scale=1.0">
     <a href="./dessert.html"><img src="https://i.imgur.com/HAyzbtI.png" id="dessert"/> Dessert</a>
   </div>
   <!-- Use any element to open the sidenav -->
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="open">&#9776;</span>
   <!-- article -->
 <br>
 <div class="card mb-3" style="max-width: 45%;" id="rec">
