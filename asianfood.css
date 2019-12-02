@@ -1,17 +1,19 @@
-
 /* The side navigation menu */
 .sidenav {
-  position: fixed;
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #ddd; /*gray*/
+  background-color: #fcf5f2;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* The navigation menu links */
@@ -22,11 +24,7 @@
   color: #818181;
   display: block;
   transition: 0.3s;
-}
-
-#open{
-  position: fixed;
-  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* Image*/
 
@@ -48,16 +46,17 @@
   color: black;
   font-weight: bold;
   transform:scale(1.1,1.1);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
-  position: fixed;
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -72,18 +71,7 @@
   .sidenav a {font-size: 18px;}
 }
 
-#asianfood {
-  width:30%;
 
-}
-
-#westernfood {
-  width:30%;
-}
-
-#dessert {
-  width:30%;
-}
 
 body {
 
