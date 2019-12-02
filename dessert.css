@@ -86,8 +86,25 @@ body {
   margin-left: 50px;
   display: inline-grid;
   opacity: 0.75;
+  text-align:justify;
 }
 
 .card-img{
   width:300px;
+}
+
+.link {
+  font-size: 30px;
+  color:black;
+  text-decoration:none;
+  transition: 0.1s;
+
+}
+
+
+.link:hover{
+color:black;
+text-decoration:none;
+font-weight: bold;
+transform:scale(1.1,1.1);
 }

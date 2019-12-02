@@ -60,6 +60,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.open {
+  position: fixed;
+}
+
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s;
@@ -74,6 +78,7 @@
 
 .recimg{
   width:50%;
+  margin-top: 30px;
   margin-left: 0;
   position: fixed;
   opacity: 0.9;
@@ -86,5 +91,6 @@ float: right;
 margin-right: 50px;
 height: auto;
 text-align:justify;
+margin-top: 30px;
 
 }
